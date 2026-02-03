@@ -7,6 +7,18 @@ macOS desktop app that communicates with the FastAPI backend.
 - Run: `swift run SubStackClient` (opens GUI window)
 - Test: `swift test`
 
+## Skills (Commands)
+Available in `.claude/skills/`:
+- `/feature` - Build new SwiftUI features with TDD
+- `/test` - Run Swift tests
+
+## Agents
+Available in `.claude/agents/`:
+- `swift-coder` - SwiftUI development
+- `tester` - Write and run XCTest tests
+- `reviewer` - Code review before commits
+- `debugger` - Investigate Swift/SwiftUI issues
+
 ## Architecture
 - SwiftUI app with native macOS window
 - Entry point: Sources/SubStackApp.swift
